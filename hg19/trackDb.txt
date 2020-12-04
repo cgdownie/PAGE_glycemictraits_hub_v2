@@ -44,7 +44,7 @@ color 128,0,128
 track liver_Transcriptn_H3K36me3
 bigDataUrl http://egg2.wustl.edu/roadmap/data/byFileType/signal/consolidatedImputed/H3K36me3/E066-H3K36me3.imputed.pval.signal.bigwig
 shortLabel liver_Transcriptn_H3K36me3
-longLabel liver_Transcriptn_H3K36me3
+longLabel liver_Transcription_H3K36me3
 parent Liver_tracks
 type bigWig
 color 0,96,0
@@ -63,7 +63,7 @@ priority 1
 #Enhancer H3K27ac##
 track female_skeletal_muscle_Enhancer_H3K27ac
 bigDataUrl http://egg2.wustl.edu/roadmap/data/byFileType/signal/consolidatedImputed/H3K27ac/E108-H3K27ac.imputed.pval.signal.bigwig
-shortLabel female_skeletal_muscle_Enhancer_H3K27ac
+shortLabel skeletal_muscle_Enhancer_H3K27ac
 longLabel female_skeletal_muscle_Enhancer_H3K27ac
 parent Skeletal_muscle_tracks
 type bigWig
@@ -72,7 +72,7 @@ color 0,0,255
 #Enhancer H3K4me1###
 track female_skeletal_muscle_Enhancer_H3K4me1
 bigDataUrl http://egg2.wustl.edu/roadmap/data/byFileType/signal/consolidatedImputed/H3K4me1/E108-H3K4me1.imputed.pval.signal.bigwig
-shortLabel female_skeletal_muscle_Enhancer_H3K4me1
+shortLabel skeletal_muscle_Enhancer_H3K4me1
 longLabel female_skeletal_muscle_Enhancer_H3K4me1
 parent Skeletal_muscle_tracks
 type bigWig
@@ -82,7 +82,7 @@ color 0,0,255
 #DHS##
 track female_skeletal_muscle_DHS
 bigDataUrl http://egg2.wustl.edu/roadmap/data/byFileType/signal/consolidatedImputed/DNase/E108-DNase.imputed.pval.signal.bigwig
-shortLabel female_skeletal_muscle_DHS
+shortLabel skeletal_muscle_DHS
 longLabel female_skeletal_muscle_DHS
 parent Skeletal_muscle_tracks
 type bigWig
@@ -91,8 +91,8 @@ color 128,0,128
 ##Transcription##
 track female_skeletal_muscle_Transcriptn_H3K36me3
 bigDataUrl http://egg2.wustl.edu/roadmap/data/byFileType/signal/consolidatedImputed/H3K36me3/E108-H3K36me3.imputed.pval.signal.bigwig
-shortLabel female_skeletal_muscle_Transcriptn_H3K36me3
-longLabel female_skeletal_muscle_Transcriptn_H3K36me3
+shortLabel skeletal_muscle_Transcriptn_H3K36me3
+longLabel female_skeletal_muscle_Transcription_H3K36me3
 parent Skeletal_muscle_tracks
 type bigWig
 color 0,96,0
@@ -143,7 +143,7 @@ color 128,0,128
 track pancreas_Transcriptn_H3K36me3
 bigDataUrl http://egg2.wustl.edu/roadmap/data/byFileType/signal/consolidatedImputed/H3K36me3/E098-H3K36me3.imputed.pval.signal.bigwig
 shortLabel pancreas_Transcriptn_H3K36me3
-longLabel pancreas_Transcriptn_H3K36me3
+longLabel pancreas_Transcription_H3K36me3
 parent pancreas_tracks
 type bigWig
 color 0,96,0
@@ -162,7 +162,7 @@ priority 1
 ##H3K27ac###
 track adipose_derived_mesenchymal_Enhancer_H3K27ac
 bigDataUrl http://egg2.wustl.edu/roadmap/data/byFileType/signal/consolidatedImputed/H3K27ac/E025-H3K27ac.imputed.pval.signal.bigwig
-shortLabel adipose_mesenchymal_Enhancer_H3K27ac
+shortLabel adipose_SC_Enhancer_H3K27ac
 longLabel adipose_derived_mesenchymal_Enhancer_H3K27ac
 parent Adipose_tracks
 type bigWig
@@ -221,7 +221,7 @@ color 128,0,128
 track adipose_derived_mesenchymal_Transcriptn_H3K36me3
 bigDataUrl http://egg2.wustl.edu/roadmap/data/byFileType/signal/consolidatedImputed/H3K36me3/E025-H3K36me3.imputed.pval.signal.bigwig
 shortLabel adipose_mesenchymal_Transcriptn_H3K36me3
-longLabel adipose_derived_mesenchymal_Transcriptn_H3K36me3
+longLabel adipose_derived_mesenchymal_Transcription_H3K36me3
 parent Adipose_tracks
 type bigWig
 color 0,96,0
@@ -230,8 +230,7 @@ color 0,96,0
 track adipose_nuclei_Transcriptn_H3K36me3
 bigDataUrl http://egg2.wustl.edu/roadmap/data/byFileType/signal/consolidatedImputed/H3K36me3/E063-H3K36me3.imputed.pval.signal.bigwig
 shortLabel adipose_nuclei_H3K36me3
-longLabel adipose_nuclei_Transcriptn_H3K36me3
+longLabel adipose_nuclei_Transcription_H3K36me3
 parent Adipose_tracks
 type bigWig
 color 0,96,0
-
