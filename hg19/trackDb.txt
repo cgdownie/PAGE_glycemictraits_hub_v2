@@ -162,7 +162,7 @@ priority 1
 ##H3K27ac###
 track adipose_derived_mesenchymal_Enhancer_H3K27ac
 bigDataUrl http://egg2.wustl.edu/roadmap/data/byFileType/signal/consolidatedImputed/H3K27ac/E025-H3K27ac.imputed.pval.signal.bigwig
-shortLabel adipose_SC_Enhancer_H3K27ac
+shortLabel adipose_mesenchymal_Enhancer_H3K27ac
 longLabel adipose_derived_mesenchymal_Enhancer_H3K27ac
 parent Adipose_tracks
 type bigWig
