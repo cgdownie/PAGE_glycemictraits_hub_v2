@@ -1,5 +1,0 @@
-hub PAGE_glycemic_traits_v2
-shortLabel PAGE_epigenomes_v2
-longLabel PAGE_epigenomes_glycemic_traits_v2
-genomesFile genomes.txt
-email carolinadownie@gmail.com
