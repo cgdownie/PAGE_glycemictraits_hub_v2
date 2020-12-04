@@ -2,7 +2,7 @@
 
 #Blue for Enhancer 0,0,255
 #Purple for DHS 128,0,128
-#Green for Transcription 10, 255, 10
+#Green for Transcription 50, 255, 50
 #####################Liver##############
 track Liver_tracks
 type bigWig
@@ -47,7 +47,7 @@ shortLabel liver_Transcriptn_H3K36me3
 longLabel liver_Transcriptn_H3K36me3
 parent Liver_tracks
 type bigWig
-color 10,255,10
+color 50,255,50
 
 
 ######Skeletal Muscle Tracks--only including female skeletal muscle because it is the same as male#################################
@@ -95,7 +95,7 @@ shortLabel female_skeletal_muscle_Transcriptn_H3K36me3
 longLabel female_skeletal_muscle_Transcriptn_H3K36me3
 parent Skeletal_muscle_tracks
 type bigWig
-color 10,255,10
+color 50,255,50
 
 
 #################################PANCREAS###############################################
@@ -146,7 +146,7 @@ shortLabel pancreas_Transcriptn_H3K36me3
 longLabel pancreas_Transcriptn_H3K36me3
 parent pancreas_tracks
 type bigWig
-color 10,255,10
+color 50,255,50
 
 
 ###################Adipose##################################
@@ -224,7 +224,7 @@ shortLabel adipose_mesenchymal_Transcriptn_H3K36me3
 longLabel adipose_derived_mesenchymal_Transcriptn_H3K36me3
 parent Adipose_tracks
 type bigWig
-color 10,255,10
+color 50,255,50
 
 ##Transcription##
 track adipose_nuclei_Transcriptn_H3K36me3
@@ -233,5 +233,5 @@ shortLabel adipose_nuclei_H3K36me3
 longLabel adipose_nuclei_Transcriptn_H3K36me3
 parent Adipose_tracks
 type bigWig
-color 10,255,10
+color 50,255,50
 
