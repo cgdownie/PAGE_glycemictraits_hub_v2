@@ -1,0 +1,266 @@
+################################################
+track Liver_tracks
+type bigWig
+compositeTrack off
+shortLabel Liver_tracks
+longLabel Liver_tracks_signal
+maxHeightPixels 150:30:11
+visibility full
+priority 1
+
+##H3K27ac###
+track liver_Enhancer_H3K27ac
+bigDataUrl http://egg2.wustl.edu/roadmap/data/byFileType/signal/consolidatedImputed/H3K27ac/E066-H3K27ac.imputed.pval.signal.bigwig
+shortLabel liver_Enhancer_H3K27ac
+longLabel liver_Enhancer_H3K27ac
+parent Liver_tracks
+type bigWig
+color 0,0,255
+
+###H3K4me1###
+track liver_Enhancer_H3K4me1
+bigDataUrl http://egg2.wustl.edu/roadmap/data/byFileType/signal/consolidatedImputed/H3K4me1/E066-H3K4me1.imputed.pval.signal.bigwig
+shortLabel liver_Enhancer_H3K4me1
+longLabel liver_Enhancer_H3K4me1
+parent Liver_tracks
+type bigWig
+color 0,0,255
+
+#DHS##
+track liver_DHS
+bigDataUrl http://egg2.wustl.edu/roadmap/data/byFileType/signal/consolidatedImputed/DNase/E066-DNase.imputed.pval.signal.bigwig
+shortLabel liver_DHS
+longLabel liver_DHS
+parent Liver_tracks
+type bigWig
+color 0,0,255
+
+##Transcription##
+track liver_Transcriptn_H3K36me3
+bigDataUrl http://egg2.wustl.edu/roadmap/data/byFileType/signal/consolidatedImputed/H3K36me3/E066-H3K36me3.imputed.pval.signal.bigwig
+shortLabel liver_Transcriptn_H3K36me3
+longLabel liver_Transcriptn_H3K36me3
+parent Liver_tracks
+type bigWig
+color 0,0,255
+
+
+######Skeletal Muscle Tracks#################################
+track Skeletal_muscle_tracks
+type bigWig
+compositeTrack off
+shortLabel Skeletal_muscle_tracks
+longLabel Skeletal_muscle_tracks_signal
+maxHeightPixels 150:30:11
+visibility full
+priority 1
+
+#Enhancer H3K27ac##
+track male_skeletal_muscle_Enhancer_H3K27ac
+bigDataUrl http://egg2.wustl.edu/roadmap/data/byFileType/signal/consolidatedImputed/H3K27ac/E107-H3K27ac.imputed.pval.signal.bigwig
+shortLabel male_skeletal_muscle_Enhancer_H3K27ac
+longLabel male_skeletal_muscle_Enhancer_H3K27ac
+parent Skeletal_muscle_tracks
+type bigWig
+color 0,0,255
+
+track female_skeletal_muscle_Enhancer_H3K27ac
+bigDataUrl http://egg2.wustl.edu/roadmap/data/byFileType/signal/consolidatedImputed/H3K27ac/E108-H3K27ac.imputed.pval.signal.bigwig
+shortLabel female_skeletal_muscle_Enhancer_H3K27ac
+longLabel female_skeletal_muscle_Enhancer_H3K27ac
+parent Skeletal_muscle_tracks
+type bigWig
+color 0,0,255
+
+#Enhancer H3K4me1###
+
+track male_skeletal_muscle_Enhancer_H3K4me1
+bigDataUrl http://egg2.wustl.edu/roadmap/data/byFileType/signal/consolidatedImputed/H3K4me1/E107-H3K4me1.imputed.pval.signal.bigwig
+shortLabel male_skeletal_muscle_Enhancer_H3K4me1
+longLabel male_skeletal_muscle_Enhancer_H3K4me1
+parent Skeletal_muscle_tracks
+type bigWig
+color 0,0,255
+
+track female_skeletal_muscle_Enhancer_H3K4me1
+bigDataUrl http://egg2.wustl.edu/roadmap/data/byFileType/signal/consolidatedImputed/H3K4me1/E108-H3K4me1.imputed.pval.signal.bigwig
+shortLabel female_skeletal_muscle_Enhancer_H3K4me1
+longLabel female_skeletal_muscle_Enhancer_H3K4me1
+parent Skeletal_muscle_tracks
+type bigWig
+color 0,0,255
+
+
+#DHS##
+track male_skeletal_muscle_DHS
+bigDataUrl http://egg2.wustl.edu/roadmap/data/byFileType/signal/consolidatedImputed/DNase/E107-DNase.imputed.pval.signal.bigwig
+shortLabel male_skeletal_muscle_DHS
+longLabel male_skeletal_muscle_DHS
+parent Skeletal_muscle_tracks
+type bigWig
+color 0,0,255
+
+track female_skeletal_muscle_DHS
+bigDataUrl http://egg2.wustl.edu/roadmap/data/byFileType/signal/consolidatedImputed/DNase/E108-DNase.imputed.pval.signal.bigwig
+shortLabel female_skeletal_muscle_DHS
+longLabel female_skeletal_muscle_DHS
+parent Skeletal_muscle_tracks
+type bigWig
+color 0,0,255
+
+##Transcription##
+
+track male_skeletal_muscle_Transcriptn_H3K36me3
+bigDataUrl http://egg2.wustl.edu/roadmap/data/byFileType/signal/consolidatedImputed/H3K36me3/E107-H3K36me3.imputed.pval.signal.bigwig
+shortLabel male_skeletal_muscle_Transcriptn_H3K36me3
+longLabel male_skeletal_muscle_Transcriptn_H3K36me3
+parent Skeletal_muscle_tracks
+type bigWig
+color 0,0,255
+
+track female_skeletal_muscle_Transcriptn_H3K36me3
+bigDataUrl http://egg2.wustl.edu/roadmap/data/byFileType/signal/consolidatedImputed/H3K36me3/E108-H3K36me3.imputed.pval.signal.bigwig
+shortLabel female_skeletal_muscle_Transcriptn_H3K36me3
+longLabel female_skeletal_muscle_Transcriptn_H3K36me3
+parent Skeletal_muscle_tracks
+type bigWig
+color 0,0,255
+
+
+#################################PANCREAS###############################################
+
+track pancreas_tracks
+type bigWig
+compositeTrack off
+shortLabel pancreas_tracks
+longLabel pancreas_tracks_DNase_signal
+maxHeightPixels 150:30:11
+visibility full
+priority 1
+
+
+#H3K27acEnhancer##
+track pancreas_Enhancer_H3K27ac
+bigDataUrl http://egg2.wustl.edu/roadmap/data/byFileType/signal/consolidatedImputed/H3K27ac/E098-H3K27ac.imputed.pval.signal.bigwig
+shortLabel pancreas_Enhancer_H3K27ac
+longLabel pancreas_Enhancer_H3K27ac
+parent pancreas_tracks
+type bigWig
+color 0,0,255
+
+
+##H3K4me1Enhancer####
+track pancreas_Enhancer_H3K4me1
+bigDataUrl http://egg2.wustl.edu/roadmap/data/byFileType/signal/consolidatedImputed/H3K4me1/E098-H3K4me1.imputed.pval.signal.bigwig
+shortLabel pancreas_Enhancer_H3K4me1
+longLabel pancreas_Enhancer_H3K4me1
+parent pancreas_tracks
+type bigWig
+color 0,0,255
+
+##DHSEnhancer#######
+track pancreas_DHS
+bigDataUrl http://egg2.wustl.edu/roadmap/data/byFileType/signal/consolidatedImputed/DNase/E098-DNase.imputed.pval.signal.bigwig
+shortLabel pancreas_Repressor_DHS
+longLabel pancreas_Repressor_DHS
+parent pancreas_tracks
+type bigWig
+color 0,0,255
+
+
+##Transcription##
+track pancreas_Transcriptn_H3K36me3
+bigDataUrl http://egg2.wustl.edu/roadmap/data/byFileType/signal/consolidatedImputed/H3K36me3/E098-H3K36me3.imputed.pval.signal.bigwig
+shortLabel pancreas_Transcriptn_H3K36me3
+longLabel pancreas_Transcriptn_H3K36me3
+parent pancreas_tracks
+type bigWig
+color 0,0,255
+
+
+###################Adipose##################################
+track Adipose_tracks
+type bigWig
+compositeTrack off
+shortLabel adipose_tracks
+longLabel adipose_tracks_signal
+maxHeightPixels 150:30:11
+visibility full
+priority 1
+
+##H3K27ac###
+track adipose_derived_mesenchymal_Enhancer_H3K27ac
+bigDataUrl http://egg2.wustl.edu/roadmap/data/byFileType/signal/consolidatedImputed/H3K27ac/E025-H3K27ac.imputed.pval.signal.bigwig
+shortLabel adipose_SC_Enhancer_H3K27ac
+longLabel adipose_derived_mensenchymal_Enhancer_H3K27ac
+parent Adipose_tracks
+type bigWig
+color 0,0,255
+
+
+##H3K27ac###
+track adipose_nuclei_Enhancer_H3K27ac
+bigDataUrl http://egg2.wustl.edu/roadmap/data/byFileType/signal/consolidatedImputed/H3K27ac/E063-H3K27ac.imputed.pval.signal.bigwig
+shortLabel adipose_nuclei_Enhancer_H3K27ac
+longLabel adipose_nuclei_Enhancer_H3K27ac
+parent Adipose_tracks
+type bigWig
+color 0,0,255
+
+###H3K4me1###
+track adipose_derived_mesenchymal_Enhancer_H3K4me1
+bigDataUrl http://egg2.wustl.edu/roadmap/data/byFileType/signal/consolidatedImputed/H3K4me1/E025-H3K4me1.imputed.pval.signal.bigwig
+shortLabel adipose_SC_Enhancer_H3K4me1
+longLabel adipose_derived_mesenchymal_Enhancer_H3K4me1
+parent Adipose_tracks
+type bigWig
+color 0,0,255
+
+
+###H3K4me1###
+track adipose_nuclei_Enhancer_H3K4me1
+bigDataUrl http://egg2.wustl.edu/roadmap/data/byFileType/signal/consolidatedImputed/H3K4me1/E063-H3K4me1.imputed.pval.signal.bigwig
+shortLabel adipose_nuclei_H3K4me1
+longLabel adipose_nuclei_Enhancer_H3K4me1
+parent Adipose_tracks
+type bigWig
+color 0,0,255
+
+
+#DHS##
+track adipose_derived_mesenchymal_DHS
+bigDataUrl http://egg2.wustl.edu/roadmap/data/byFileType/signal/consolidatedImputed/DNase/E025-DNase.imputed.pval.signal.bigwig
+shortLabel adipose_SC_DHS
+longLabel adipose_derived_mesenchymal_DHS
+parent Adipose_tracks
+type bigWig
+color 0,0,255
+
+#DHS##
+track adipose_nuclei_DHS
+bigDataUrl http://egg2.wustl.edu/roadmap/data/byFileType/signal/consolidatedImputed/DNase/E063-DNase.imputed.pval.signal.bigwig
+shortLabel adipose_nuclei_DHS
+longLabel adipose_nuclei_mesenchymal_DHS
+parent Adipose_tracks
+type bigWig
+color 0,0,255
+
+
+##Transcription##
+track adipose_derived_mesenchymal_Transcriptn_H3K36me3
+bigDataUrl http://egg2.wustl.edu/roadmap/data/byFileType/signal/consolidatedImputed/H3K36me3/E025-H3K36me3.imputed.pval.signal.bigwig
+shortLabel adipose_SC_Transcriptn_H3K36me3
+longLabel adipose_derived_mesenchymal_Transcriptn_H3K36me3
+parent Adipose_tracks
+type bigWig
+color 0,0,255
+
+##Transcription##
+track adipose_nuclei_Transcriptn_H3K36me3
+bigDataUrl http://egg2.wustl.edu/roadmap/data/byFileType/signal/consolidatedImputed/H3K36me3/E063-H3K36me3.imputed.pval.signal.bigwig
+shortLabel adipose_nuclei_H3K36me3
+longLabel adipose_nuclei_Transcriptn_H3K36me3
+parent Adipose_tracks
+type bigWig
+color 0,0,255
+
