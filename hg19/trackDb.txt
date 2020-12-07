@@ -132,8 +132,8 @@ color 0,0,255
 ##DHSEnhancer#######
 track pancreas_DHS
 bigDataUrl http://egg2.wustl.edu/roadmap/data/byFileType/signal/consolidatedImputed/DNase/E098-DNase.imputed.pval.signal.bigwig
-shortLabel pancreas_Repressor_DHS
-longLabel pancreas_Repressor_DHS
+shortLabel pancreas_DHS
+longLabel pancreas_DHS
 parent pancreas_tracks
 type bigWig
 color 128,0,128
@@ -181,7 +181,7 @@ color 0,0,255
 track adipose_nuclei_DHS
 bigDataUrl http://egg2.wustl.edu/roadmap/data/byFileType/signal/consolidatedImputed/DNase/E063-DNase.imputed.pval.signal.bigwig
 shortLabel adipose_nuclei_DHS
-longLabel adipose_nuclei_mesenchymal_DHS
+longLabel adipose_nuclei_DHS
 parent Adipose_tracks
 type bigWig
 color 128,0,128
