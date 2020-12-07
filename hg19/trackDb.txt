@@ -160,16 +160,6 @@ visibility full
 priority 1
 
 ##H3K27ac###
-track adipose_derived_mesenchymal_Enhancer_H3K27ac
-bigDataUrl http://egg2.wustl.edu/roadmap/data/byFileType/signal/consolidatedImputed/H3K27ac/E025-H3K27ac.imputed.pval.signal.bigwig
-shortLabel adipose_SC_Enhancer_H3K27ac
-longLabel adipose_derived_mesenchymal_Enhancer_H3K27ac
-parent Adipose_tracks
-type bigWig
-color 0,0,255
-
-
-##H3K27ac###
 track adipose_nuclei_Enhancer_H3K27ac
 bigDataUrl http://egg2.wustl.edu/roadmap/data/byFileType/signal/consolidatedImputed/H3K27ac/E063-H3K27ac.imputed.pval.signal.bigwig
 shortLabel adipose_nuclei_Enhancer_H3K27ac
@@ -177,16 +167,6 @@ longLabel adipose_nuclei_Enhancer_H3K27ac
 parent Adipose_tracks
 type bigWig
 color 0,0,255
-
-###H3K4me1###
-track adipose_derived_mesenchymal_Enhancer_H3K4me1
-bigDataUrl http://egg2.wustl.edu/roadmap/data/byFileType/signal/consolidatedImputed/H3K4me1/E025-H3K4me1.imputed.pval.signal.bigwig
-shortLabel adipose_mesenchymal_Enhancer_H3K4me1
-longLabel adipose_derived_mesenchymal_Enhancer_H3K4me1
-parent Adipose_tracks
-type bigWig
-color 0,0,255
-
 
 ###H3K4me1###
 track adipose_nuclei_Enhancer_H3K4me1
@@ -197,16 +177,6 @@ parent Adipose_tracks
 type bigWig
 color 0,0,255
 
-
-#DHS##
-track adipose_derived_mesenchymal_DHS
-bigDataUrl http://egg2.wustl.edu/roadmap/data/byFileType/signal/consolidatedImputed/DNase/E025-DNase.imputed.pval.signal.bigwig
-shortLabel adipose_mesenchymal_DHS
-longLabel adipose_derived_mesenchymal_DHS
-parent Adipose_tracks
-type bigWig
-color 128,0,128
-
 #DHS##
 track adipose_nuclei_DHS
 bigDataUrl http://egg2.wustl.edu/roadmap/data/byFileType/signal/consolidatedImputed/DNase/E063-DNase.imputed.pval.signal.bigwig
@@ -216,16 +186,6 @@ parent Adipose_tracks
 type bigWig
 color 128,0,128
 
-
-##Transcription##
-track adipose_derived_mesenchymal_Transcriptn_H3K36me3
-bigDataUrl http://egg2.wustl.edu/roadmap/data/byFileType/signal/consolidatedImputed/H3K36me3/E025-H3K36me3.imputed.pval.signal.bigwig
-shortLabel adipose_mesenchymal_Transcriptn_H3K36me3
-longLabel adipose_derived_mesenchymal_Transcription_H3K36me3
-parent Adipose_tracks
-type bigWig
-color 0,96,0
-
 ##Transcription##
 track adipose_nuclei_Transcriptn_H3K36me3
 bigDataUrl http://egg2.wustl.edu/roadmap/data/byFileType/signal/consolidatedImputed/H3K36me3/E063-H3K36me3.imputed.pval.signal.bigwig
@@ -234,3 +194,4 @@ longLabel adipose_nuclei_Transcription_H3K36me3
 parent Adipose_tracks
 type bigWig
 color 0,96,0
+
