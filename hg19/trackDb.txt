@@ -195,3 +195,59 @@ parent Adipose_tracks
 type bigWig
 color 0,96,0
 
+###################Fetal Adrenal##################################
+track Adrenal_tracks
+type bigWig
+compositeTrack off
+shortLabel adrenal_tracks
+longLabel fetal_adrenal_tracks_signal
+maxHeightPixels 150:30:11
+visibility full
+priority 1
+
+##H3K27ac###
+track fetal_adrenal_Enhancer_H3K27ac
+bigDataUrl http://egg2.wustl.edu/roadmap/data/byFileType/signal/consolidatedImputed/H3K27ac/E080-H3K27ac.imputed.pval.signal.bigwig
+shortLabel fetal_adrenal_Enhancer_H3K27ac
+longLabel fetal_adrenal_Enhancer_H3K27ac
+parent Adrenal_tracks
+type bigWig
+color 0,0,255
+
+###H3K4me1###
+track fetal_adrenal_Enhancer_H3K4me1
+bigDataUrl http://egg2.wustl.edu/roadmap/data/byFileType/signal/consolidatedImputed/H3K4me1/E080-H3K4me1.imputed.pval.signal.bigwig
+shortLabel fetal_adrenal_H3K4me1
+longLabel fetal_adrenal_Enhancer_H3K4me1
+parent Adrenal_tracks
+type bigWig
+color 0,0,255
+
+#DHS##
+track fetal_adrenal_DHS
+bigDataUrl http://egg2.wustl.edu/roadmap/data/byFileType/signal/consolidatedImputed/DNase/E080-DNase.imputed.pval.signal.bigwig
+shortLabel fetal_adrenal_DHS
+longLabel fetal_adrenal_DHS
+parent Adrenal_tracks
+type bigWig
+color 128,0,128
+
+##Transcription##
+track fetal_adrenal_Transcriptn_H3K36me3
+bigDataUrl http://egg2.wustl.edu/roadmap/data/byFileType/signal/consolidatedImputed/H3K36me3/E080-H3K36me3.imputed.pval.signal.bigwig
+shortLabel fetal_adrenal_H3K36me3
+longLabel fetal_adrenal_Transcription_H3K36me3
+parent Adrenal_tracks
+type bigWig
+color 0,96,0
+
+
+
+
+
+
+
+
+
+
+
